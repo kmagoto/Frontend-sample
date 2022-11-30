@@ -1,0 +1,50 @@
+/* add your CSS here */
+
+body{
+    background-color: aliceblue;
+}
+.cont_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container {
+    width: 300px;
+    height: 620px;
+    border: 1px solid grey;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px -2px #888;
+    border-radius: 30px;
+}
+
+.img_rott {
+    width: 300px;
+    height: 200px;
+}
+
+.intro_txt {
+    font-style: italic;
+}
+
+.info_txt {
+    border: 1px solid grey;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border-radius: 10% / 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+span {
+    font-weight: bold;
+}
